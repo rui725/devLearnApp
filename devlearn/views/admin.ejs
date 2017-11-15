@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DevTutorials</title>
+		<!- Metas ->
+		<% include partials/libraries %>
+
+	</head>
+	<body>
+		<div id="body">
+		<!- include stuff for ejs ->
+		<% include partials/navbar %>
+		<div id="forum">
+		<div class="container">
+			 <% if(data.t=="ad"){ %>
+			<div id="alertAdmin" class="alert" style="text-align:center;">
+			</div>
+		<br>
+
+		<% } %>
+			<div id="maintenance">
+				<b>Maintenance Mode</b>
+				<input type="checkbox" checked data-toggle="toggle" data-offstyle="danger">
+			</div>
+				<table class="table table-responsive table-striped" id="userlist">
+
+				  <thead class="thead-inverse">
+					<tr>
+					  <th style="width:100vw;">
+						User List
+					 </th>
+					 <th style="text-align:right;">
+							<button class="btn btn-primary" id="addNewAcct"><b><i class="fa fa-plus">&nbsp;New User</i></b></button>
+					 </th>
+					</tr>
+				  </thead>
+				  <tbody >
+						<tr>
+							<th>Username</th>
+							<th>Password</th>
+
+							<th>Action</th>
+							<th>Date Created</th>
+						</tr>
+
+
+					<% userlist.forEach(function(key){ %>
+						<tr>
+							<th scope="row"><%= key.username %></th>
+							<td><%= key.password %></td>
+							<td>
+								<% if(key.type=="admin"){ %>
+									<button class="btn btn-success" id="chgeUsr" data="<%= key.username %>"><b><i class="fa fa-user-secret"></i></b></button>
+								<% } else { %>
+									<button class="btn btn-success" id="chgeUsr" data="<%= key.username %>"><b><i class="fa fa-user"></i></b></button>
+								<% } %>
+								<button class="btn btn-success"id="editUsr" data="<%= key.username %>"><b><i class="fa fa-pencil"></i></b></button>
+								<button class="btn btn-success" id="delUsr" data="<%= key.username %>"><b><i class="fa fa-trash"></i></b></button>
+
+							</td>
+
+							<td id="lastestpost"><%= moment(key.dateCreated).format('MMM D, YYYY'); %></td>
+						</tr>
+					<% }); %>
+				  </tbody>
+				</table>
+			</div>
+			<!--    ---------------------------- -->
+
+
+
+		</div>
+		<% include partials/footer %>
+		</div>
+	</body>
+</html>

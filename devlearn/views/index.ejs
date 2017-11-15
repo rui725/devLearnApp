@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>DevLearn App</title>
+		<% include partials/libraries %>
+	</head>
+	<body>
+		<div id="body">
+			<!- include stuff for ejs ->
+			<% include partials/navbar %>
+			<div id="forum">
+
+			<section class="fullsize-video-bg">
+			<div class="inner">
+
+							<div>
+								<h1>DevLearn</h1>
+								<h2> LOGO </h2>
+								<% if(!data.username){ %>
+								<p><button type="button" class="btn btn-primary" onclick="logMe();">LOGIN</button>&nbsp;&nbsp;&nbsp;
+								   <button type="button" class="btn btn-success" onclick="signMe();">SIGN UP</button><br>
+								 <% } %>
+							</div>
+						</div>
+			<div id="video-viewport">
+				<video autoplay loop>
+					<source src="assets/vidLearn.mp4" type="video/mp4" />
+					<source src="assets/vidLearn.webm" type="video/webm" />
+				</video>
+			</div>
+			</section>
+
+			</div>
+
+			<% include partials/footer %>
+
+		</div>
+	</body>
+</html>

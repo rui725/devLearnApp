@@ -1,0 +1,14 @@
+<div class="container" id="editAcct" style="display:none;">
+	<div id="close">
+		<span>Edit Account</span>
+		<button class="btn btn-outline-secondary btn-sm" onclick="closeLog();"> X </button>
+	</div>
+	<div id="editAcctAlert" class="alert">
+	</div>
+	<form id="editAcUp" method="POST" action="/editUsr">
+			Enter Username:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="uname" id="uname" value="<%= data.username %>" /><br>
+			Enter Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" name="pass" id="pass" placeholder="Password..." /><br>
+			Re-Type Password:<input type="password" name="repass" id="repass" placeholder="Re-Type..." /><br>
+		<button id="editAcUp"class="btn btn-primary" type="submit">Update Account</button>
+	</form>
+</div>

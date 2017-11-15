@@ -1,0 +1,275 @@
+body{
+	padding-top:50px;
+	background-color:#00ff99;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+div#body{
+	height:80vh;
+}
+div#forum{
+
+	min-height:76vh;
+
+}
+div#footer{
+	min-height:20vh;
+	background-color:#e9ecef;
+	position:relative;
+}
+
+div#login{
+	padding-left:0vw;
+	padding-right:0vw;
+	margin-right: 1vw;
+	padding-bottom:2vh;
+	margin-left:30vw;
+	margin-top:7vh;
+	margin-bottom:10vh;
+	opacity:0.9;
+	position:fixed;
+	min-height:20vh;
+	max-width:40vw;
+	background-color:white;
+	vertical-align:middle;
+	text-align:center;
+	font-size:1.3em;
+	z-index:5;
+}
+
+div#signup{
+	padding-left:0vw;
+	padding-right:0vw;
+	margin-right: 1vw;
+	padding-bottom:2vh;
+	margin-left:30vw;
+	margin-top:5vh;
+	margin-bottom:10vh;
+	opacity:0.9;
+	position:fixed;
+	min-height:30vh;
+	max-width:40vw;
+	background-color:white;
+	vertical-align:middle;
+	text-align:center;
+	font-size:1.3em;
+	z-index:5;
+
+}
+div#signup-s{
+	padding-left:0vw;
+	padding-right:0vw;
+	margin-right: 1vw;
+	padding-bottom:2vh;
+	margin-left:30vw;
+	margin-top:5vh;
+	margin-bottom:10vh;
+	opacity:0.9;
+	position:fixed;
+	min-height:30vh;
+	max-width:40vw;
+	background-color:white;
+	vertical-align:middle;
+	text-align:center;
+	font-size:1.3em;
+	z-index:5;
+}
+i.fa{
+	font-size:1.5rem;
+}
+div#editup{
+	padding-left:0vw;
+	padding-right:0vw;
+	margin-right: 1vw;
+	padding-bottom:2vh;
+	margin-left:30vw;
+	margin-top:5vh;
+	margin-bottom:10vh;
+	opacity:0.9;
+	position:fixed;
+	min-height:30vh;
+	max-width:40vw;
+	background-color:white;
+	vertical-align:middle;
+	text-align:center;
+	font-size:1.3em;
+	z-index:5;
+
+}
+
+#signU input{
+margin-top:1vh;
+	margin-left:1vw;
+}
+
+#editUsr input{
+margin-top:1vh;
+	margin-left:1vw;
+}
+
+@media only screen and (max-width: 500px) {
+
+	div#close span{
+		text-align:center;
+		float:left;
+		width:auto !important;
+		padding-left: 1vw;
+		color:white;
+	}
+    div#login{
+		margin-right:0vw;
+		margin-left:5vw;
+		margin-top:5vh;
+		padding-bottom:2vh;
+		opacity:0.9;
+		position:fixed;
+		min-height:50vh;
+		max-width:90vw;
+		background-color:white;
+		vertical-align:middle;
+		text-align:center;
+		font-size:1.3em;
+		z-index:5;
+	}
+
+	div#signup{
+		margin-right:0vw;
+		margin-left:5vw;
+		margin-top:2.5vh;
+		padding-bottom:2vh;
+		opacity:0.9;
+		position:fixed;
+		min-height:70vh;
+		max-width:90vw;
+		background-color:white;
+		vertical-align:middle;
+		text-align:center;
+		font-size:1.3em;
+		z-index:5;
+	}
+	div#signup-s{
+		margin-right:0vw;
+		margin-left:5vw;
+		margin-top:10vh;
+		padding-bottom:2vh;
+		opacity:0.9;
+		position:fixed;
+		max-height:40vh;
+		max-width:90vw;
+		background-color:white;
+		vertical-align:middle;
+		text-align:center;
+		font-size:1.3em;
+		z-index:5;
+	}
+	div#editup{
+		margin-right:0vw;
+		margin-left:5vw;
+		margin-top:2.5vh;
+		padding-bottom:2vh;
+		opacity:0.9;
+		position:fixed;
+		min-height:70vh;
+		max-width:90vw;
+		background-color:white;
+		vertical-align:middle;
+		text-align:center;
+		font-size:1.3em;
+		z-index:5;
+	}
+	i.fa{
+	font-size:1rem;
+	}
+}
+
+div#close{
+	height:8vh;
+	background-color:black;
+	padding-right:1vw;
+	padding-top:1vw;
+	padding-bottom:1vw;
+}
+div#close button{
+	float:right;
+}
+div#close span{
+	text-align:center;
+	float:left;
+	padding-left:1.5vw;
+	width:auto;
+	color:white;
+}
+
+div#login input{
+	text-align:center;
+	margin:1vh;
+}
+
+div#login h2{
+	text-align:center;
+	font-size:2em;
+}
+
+button#signup{
+	text-align:center;
+	min-width:10vw;
+	margin-top:2vh;
+	font-size:20px;
+}
+
+div#login button#login{
+	text-align:center;
+	min-width:10vw;
+	margin-top:2vh;
+	font-size:20px;
+}
+
+div#login button#close{
+	text-align:right;
+
+	margin-top:2vh;
+	font-size:20px;
+}
+
+div.dropdown-menu button{
+	color:white;
+}
+
+.thead-inverse th {
+            color: white;
+			font-size:2em;
+            background-color: #00ff99;/*#373a3c;*/
+			border-top:none !important;
+}
+
+#latestpost{
+	text-align:right;
+}
+
+table.table-striped{
+	background-color:white;
+}
+
+
+div#video-viewport {position:absolute; top: 0; left: 0; max-height:100%;z-index: 0; }
+video { display: block; width: 100vw; height: 85vh; object-fit:cover; }
+
+.fullsize-video-bg { height: 75vh; overflow: hidden; }
+
+.fullsize-video-bg:before { content: ""; background: rgba(24, 222, 205,.35); position: absolute; top: 0; left: 0; width: 100%; height: 83.8vh; z-index: 1; }
+.fullsize-video-bg:after { content: ""; background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNi1jMDY3IDc5LjE1Nzc0NywgMjAxNS8wMy8zMC0yMzo0MDo0MiAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIDIwMTUgTWFjaW50b3NoIiB4bXBNTTpJbnN0YW5jZUlEPSJ4bXAuaWlkOjI4RkZBQTgzNzg1NzExRTU4NTQyODc3OUM4MTZGMUREIiB4bXBNTTpEb2N1bWVudElEPSJ4bXAuZGlkOjI4RkZBQTg0Nzg1NzExRTU4NTQyODc3OUM4MTZGMUREIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6MjhGRkFBODE3ODU3MTFFNTg1NDI4Nzc5QzgxNkYxREQiIHN0UmVmOmRvY3VtZW50SUQ9InhtcC5kaWQ6MjhGRkFBODI3ODU3MTFFNTg1NDI4Nzc5QzgxNkYxREQiLz4gPC9yZGY6RGVzY3JpcHRpb24+IDwvcmRmOlJERj4gPC94OnhtcG1ldGE+IDw/eHBhY2tldCBlbmQ9InIiPz66uHInAAAAIUlEQVR42mL5//8/AyMj42YGIGBigABfEMEIkoEBgAADAKvuBwVS8BAjAAAAAElFTkSuQmCC);
+background-size: 3px 3px; position: absolute; top: 0; left: 0; width: 100%; height: 83.8vh; z-index: 2; }
+
+
+.fullsize-video-bg .inner { display: table; width: 100%; max-width: 24em; height: 100%; margin: 0 auto; padding: 0; position: relative; z-index: 2; text-shadow: 0 1px 5px rgba(0,0,0,.5); z-index:3;}
+.fullsize-video-bg .inner > div { text-align: center; display: table-cell; vertical-align: middle; padding: 0 1em; }
+
+.fullsize-video-bg .inner p{
+	padding-top:8vh;
+}
+
+h1 { font-family: "Raleway", sans-serif; font-size: 3em; line-height: .9; font-weight: 900; letter-spacing: -.025em; text-transform: uppercase; margin-bottom: .5em; }
+h1 + p { font-family: "Shadows Into Light Two", cursive; font-size: 1.5em;  }

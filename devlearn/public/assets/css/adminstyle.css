@@ -1,0 +1,137 @@
+i.fa{
+	font-size:1.5rem;
+}
+
+
+#editAcUp input{
+  margin-top:1vh;
+	margin-left:1vw;
+}
+
+
+#newAcUp input{
+  margin-top:1vh;
+	margin-left:1vw;
+}
+
+button#editAcUp{
+	text-align:center;
+	min-width:10vw;
+	margin-top:2vh;
+	font-size:20px;
+}
+
+button#newAcct{
+	text-align:center;
+	min-width:10vw;
+	margin-top:2vh;
+	font-size:20px;
+}
+
+div#editAcct{
+	padding-left:0vw;
+	padding-right:0vw;
+	margin-right: 1vw;
+	padding-bottom:2vh;
+	margin-left:30vw;
+	margin-top:5vh;
+	margin-bottom:10vh;
+	opacity:0.9;
+	position:fixed;
+	min-height:30vh;
+	max-width:40vw;
+	background-color:white;
+	vertical-align:middle;
+	text-align:center;
+	font-size:1.3em;
+	z-index:5;
+
+}
+
+div#newAcct{
+	padding-left:0vw;
+	padding-right:0vw;
+	margin-right: 1vw;
+	padding-bottom:2vh;
+	margin-left:30vw;
+	margin-top:5vh;
+	margin-bottom:10vh;
+	opacity:0.9;
+	position:fixed;
+	min-height:30vh;
+	max-width:40vw;
+	background-color:white;
+	vertical-align:middle;
+	text-align:center;
+	font-size:1.3em;
+	z-index:5;
+
+}
+
+@media only screen and (max-width: 500px) {
+  div#newAcct{
+		margin-right:0vw;
+		margin-left:5vw;
+		margin-top:2.5vh;
+		padding-bottom:2vh;
+		opacity:0.9;
+		position:fixed;
+		min-height:70vh;
+		max-width:90vw;
+		background-color:white;
+		vertical-align:middle;
+		text-align:center;
+		font-size:1.3em;
+		z-index:5;
+	}
+  div#editAcct{
+		margin-right:0vw;
+		margin-left:5vw;
+		margin-top:2.5vh;
+		padding-bottom:2vh;
+		opacity:0.9;
+		position:fixed;
+		min-height:70vh;
+		max-width:90vw;
+		background-color:white;
+		vertical-align:middle;
+		text-align:center;
+		font-size:1.3em;
+		z-index:5;
+	}
+}
+
+table#userlist{
+  display:block !important;
+
+}
+
+div#maintenance{
+	font-size:1.5em;
+}
+div#maintenance input {
+	background:white;
+}
+
+table#userlist tbody{
+	text-align:center;
+	display:block;
+	max-height:50vh;
+	overflow:auto;
+	overflow-y:scroll;
+
+
+}
+
+table#userlist thead th{
+	font-size:1.5rem;
+}
+table#userlist th{
+	width:100vw;
+	right:20px;
+
+}
+table#userlist td{
+	width:100vw;
+	right:20px;
+}

@@ -1,0 +1,17 @@
+<div class="container" id="newAcct" style="display:none;">
+	<div id="close">
+		<span>Add New Account</span>
+		<button class="btn btn-outline-secondary btn-sm" onclick="closeLog();"> X </button>
+	</div>
+	<div id="newAcctAlert" class="alert">
+	</div>
+	<form id="newAcUp" method="POST" action="/newAcct">
+
+			Enter Username:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="uname" id="uname"placeholder="Username..." /><br>
+			Enter Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" name="pass" id="pass" placeholder="Password..." /><br>
+			Re-Type Password:<input type="password" name="repass" id="repass" placeholder="Re-Type..." /><br>
+      Admin <input type="checkbox"> User <input type="checkbox"><br>
+		<button id="newAcct"class="btn btn-primary" type="submit" >Add New Account</button>
+
+	</form>
+</div>

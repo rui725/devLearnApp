@@ -1,0 +1,15 @@
+<div class="container" id="editup" style="display:none;">
+	<div id="close">
+		<span>Edit Profile</span>
+		<button class="btn btn-outline-secondary btn-sm" onclick="closeLog();"> X </button>
+	</div>
+	<div id="editUpAlert" class="alert">
+	</div>
+	<form id="editUsr" method="POST" action="/edit">
+			Enter Username:&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="uname" id="uname" value="<%= data.username %>" /><br>
+			Enter Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="password" name="pass" id="pass" placeholder="Password..." /><br>
+			Re-Type Password:<input type="password" name="repass" id="repass" placeholder="Re-Type..." /><br>
+		<button id="editup" class="btn btn-primary" type="submit">Update Profile</button>
+
+	</form>
+</div>
